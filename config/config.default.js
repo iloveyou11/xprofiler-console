@@ -111,16 +111,16 @@ module.exports = appInfo => {
     agent: false,
     clients: {
       xprofiler_console: {
-        host: '',
+        host: '127.0.0.1',
         port: 3306,
-        user: '',
+        user: 'root',
         password: '',
         database: 'xprofiler_console',
       },
       xprofiler_logs: {
-        host: '',
+        host: '127.0.0.1',
         port: 3306,
-        user: '',
+        user: 'root',
         password: '',
         database: 'xprofiler_logs',
       },
